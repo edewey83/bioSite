@@ -5,7 +5,9 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.4em;
-    color: #F7F4F4;
+    color: #F7F4F4; 
+    
+    
     
 }
 h1, h2 {
@@ -15,6 +17,9 @@ h1, h2 {
     border-top: 2px solid;
     background-color: #000000;
     text-align: center;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 15px 15px 15px 15px;
 
 }
 ul
@@ -32,15 +37,20 @@ body {
     font-weight: 400;
     line-height: 1.4em;
     color: #F7F4F4;
+   
 }
 img {
     border: solid 2px white;
+    border-radius: 15px 15px 15px 15px;
+    
 }
 article {
     column-count: 2;
-    column-width: 200px;
-    column-gap: 0em;
-    text-align: center;
+    column-width: 400px;
+    column-gap: 1em;
+    text-align: justify;
+    padding-right: 150px;
+    padding-left: 50px;
   
     
 }
@@ -54,13 +64,15 @@ article p {
 }
 
 a {
-  background-color: black;
-  color: white;
-  padding: 1.5em 2em;
-  padding-right: 160px;
-  text-decoration: none;
-  text-transform: uppercase;
-  
+    background-color: black;
+    color: white;
+    padding: 1.5em 2em;
+    padding-right: 160px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-color: #256407;
+    border-radius: 15px 15px 15px 15px;
 }
 .clear 
 {
@@ -69,20 +81,28 @@ a {
 h3 { font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #D2AD86;
-    border-top: 2px solid;
     background-color: #000000;
     text-align: center;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 15px 15px 15px 15px;
     }
 h4 {
-    font-size: 16px;
+    font-size: 1em;   
+    border-color: white;
+    border-radius: 15px 15px 15px 15px;6px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.4em;
+    text-align: center;
 }
 .navigation {
     position: fixed;
     top:0px;
     width: 100%;
+    text-align: center;
+   
+  
 }
 .gallery {
   margin: 5px;
@@ -92,7 +112,8 @@ h4 {
 }
 
 .gallery div:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
+    
 }
 .gallery img {
   width: auto;
